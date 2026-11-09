@@ -5,19 +5,19 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                echo 'Source code is managed by GitHub!'
+                echo 'Source code retrived successfully!'
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Jenkins SCM Pipeline is working!'
+                echo 'Jenkins configure is succesful!'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Test completed successfully!'
+                echo 'Test successfully!'
             }
         }
     }
